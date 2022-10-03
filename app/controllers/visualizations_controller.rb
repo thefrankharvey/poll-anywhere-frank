@@ -1,6 +1,6 @@
 class VisualizationsController < ApplicationController
   before_action :set_poll
-  # todo use this maybe
+
   def show
   end
 

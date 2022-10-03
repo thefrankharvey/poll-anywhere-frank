@@ -5,7 +5,7 @@ class RespondsController < ApplicationController
     @option = Option.find(params[:option_id])
     @option.increment!(:vote_count)
     redirect_to poll_respond_path, notice: "Vote successfully counted."
-  end 
+  end
 
   private
     def set_poll
