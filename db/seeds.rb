@@ -2,7 +2,7 @@ Option.destroy_all
 Poll.destroy_all
 
 Poll.create!([{
-title: "Is Frank cool?"
+title: "Will Rails crush React?"
 }])
 
 p "Created #{Poll.count} poll"
