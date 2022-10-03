@@ -13,6 +13,6 @@ class RespondsController < ApplicationController
     end
 
     def set_options
-      @poll_options = Option.where(params[:poll_id])
+      @poll_options = Option.where("poll_id = '#{params[:poll_id]}'")
     end
 end
