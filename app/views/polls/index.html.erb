@@ -1,0 +1,10 @@
+<div class="w-3/4 place-content-center mx-auto">
+  <%= render "form", poll: Poll.new %>
+
+  <hr class="my-8">
+  <div class="min-w-full space-y-8">
+    <% @polls.each do |poll| %>
+      <%= render poll %>
+    <% end %>
+  </div>
+</div>

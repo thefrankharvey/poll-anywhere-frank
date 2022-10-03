@@ -1,0 +1,4 @@
+<%= form_with model: [poll, Option.new], class: "flex" do |form| %>
+  <%= form.text_field :title, class: "block shadow rounded-md border border-gray-200 outline-none mr-1 w-full" %>
+  <%= form.submit "Create option", class: "rounded-lg py-3 px-5 white inline-block font-medium cursor-pointer" %>
+<% end %>

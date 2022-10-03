@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html class='antialiased min-h-full'>
+  <head>
+    <title>PollAnywhere</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+
+  <body class='min-h-full'>
+    <div class='flex'>
+      <main class='w-full'>
+        <div class="w-3/4 place-content-center mx-auto pb-4">
+          <h1 class="text-3xl underline hover:no-underline inline">
+            <%= link_to "Polls", root_url %>
+          </h1>
+        </div>
+        <%= yield %>
+      </main>
+    </div>
+  </body>
+</html>

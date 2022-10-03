@@ -1,0 +1,7 @@
+<div class="flex mb-3">
+  <%= form_with model: [option.poll, option], class: "flex w-full" do |form| %>
+    <%= form.text_field :title, class: "block shadow rounded-md border border-gray-200 outline-none mr-1 w-full" %>
+    <%= form.submit "Update", class: "rounded-lg py-3 px-5 white block font-medium cursor-pointer" %>
+  <% end %>
+  <%= button_to 'Destroy', poll_option_path(option.poll, option), method: :delete, class: "rounded-lg ml-1 py-3 px-5 bg-red-200 font-medium" %>
+</div>
