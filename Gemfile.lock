@@ -221,6 +221,7 @@ GEM
 PLATFORMS
   arm64-darwin-21
   x86_64-darwin-19
+  x86_64-darwin-21
 
 DEPENDENCIES
   bootsnap
@@ -241,9 +242,6 @@ DEPENDENCIES
   tzinfo-data
   web-console
   webdrivers
-
-RUBY VERSION
-   ruby 3.0.2p107
 
 BUNDLED WITH
    2.2.22
