@@ -2,6 +2,10 @@
   <div class='w-full'>
     <div class='text-gray-700 text-3xl'>
       <%= option.title %>
+      <p id="option_<%= option.id %>">votes: &nbsp; <%= option.vote_count %> </p>
+      <% if params[:controller] == "responds" %>
+       <%= button_to 'Vote', poll_respond_path(:option_id => option.id), method: :put, class: "rounded-lg ml-1 py-3 px-5 bg-blue-200 font-medium"%>
+      <% end %>
     </div>
   </div>
 </div>
