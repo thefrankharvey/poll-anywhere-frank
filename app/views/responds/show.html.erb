@@ -1,0 +1,13 @@
+<div class="w-3/4 place-content-center mx-auto">
+  <div class='space-x-8 h-full'>
+    <h1 class="block text-4xl font-bold text-gray-700">
+      <%= @poll.title %>
+    </h1>
+    <div class="min-w-full space-y-8">
+      <% @poll_options.each do |opt| %>
+        <%= render opt %>
+      <% end %>
+    </div>
+  </div>
+</div>
+</div>
