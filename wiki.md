@@ -3,7 +3,7 @@
 
 A. Controllers
     - `RespondsController`
-        **1.** add a vote to a particular option
+        **1.** add a vote to a particular option **Done**
             - get total vote count per option[:id] from db
             - user clicks option
             - add 1 to total vote count in db onClick
@@ -14,16 +14,14 @@ A. Controllers
     - *N/R*
         -  use separate controllers for showing the voting options and for incrementing the count
 B. Views
-    **2.**      update or add views needed to vote on an option
-    **3.**      include the title of the poll
-    **4.**      list each option and its current number of votes
-    **5.**      allow user to "vote" for that option - increasing the vote count
+    **2.**      update or add views needed to vote on an option **Done**
+    **3.**      include the title of the poll **Done**
+    **4.**      list each option and its current number of votes **Done**
+    **5.**      allow user to "vote" for that option - increasing the vote count **Done**
 
 C. The total number of votes for each option should be visible on
-    **6.**      voting
+    **6.**      voting **Done**
                 - get total vote count per option[:id] from db
     - AND -
-    **7.**      visualization pages
-                - get total vote count per option[:id] from db
-    **8.**      vote count should be displayed next to each option
-                - view - display in view
+    **7.**      visualization pages **Done**
+    **8.**      vote count should be displayed next to each option **Done**
