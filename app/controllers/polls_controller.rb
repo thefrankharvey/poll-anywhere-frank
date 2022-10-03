@@ -4,7 +4,7 @@ class PollsController < ApplicationController
   def index
     @polls = Poll.all.order(id: :desc)
   end
-# todo use this maybe
+
   def edit
   end
 
