@@ -1,6 +1,3 @@
-- Ruby 3.0.2
-- SQLite
-
 - users can vote on an option for a given poll
 - use existing route and controller (`RespondsController`) for voting
 
